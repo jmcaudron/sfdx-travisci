@@ -14,7 +14,7 @@ before_install:
 - export PATH=./sfdx/$(pwd):$PATH
 - sfdx update
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
-  --username $USERNAME --setdefaultdevhubusername -a DevHubNHI
+  --username $USERNAME --setdefaultdevhubusername -a DevHub
 script:
 - sfdx force:org:create -v DevHubNHI -s -f config/project-scratch-def.json -a ciorg
 - sfdx force:source:push -u ciorg
