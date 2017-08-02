@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSPOCLHD</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Status__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>AccountTeam__c</field>
+        <operation>includes</operation>
+        <value>LHDTSPOC</value>
+    </filters>
+    <label>My Team's Accounts (TSPOC- LHD)</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>TSPOCLHD</role>
+    </sharedTo>
+</ListView>

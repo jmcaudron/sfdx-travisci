@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountTeam__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LHDTSPOC</fullName>
+                <default>false</default>
+                <label>LHDTSPOC</label>
+            </value>
+            <value>
+                <fullName>AHDTSPOC</fullName>
+                <default>false</default>
+                <label>AHDTSPOC</label>
+            </value>
+            <value>
+                <fullName>AHTSPOC</fullName>
+                <default>false</default>
+                <label>AHTSPOC</label>
+            </value>
+            <value>
+                <fullName>FKTSPOC</fullName>
+                <default>false</default>
+                <label>FKTSPOC</label>
+            </value>
+            <value>
+                <fullName>NHITSPOC</fullName>
+                <default>false</default>
+                <label>NHITSPOC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
